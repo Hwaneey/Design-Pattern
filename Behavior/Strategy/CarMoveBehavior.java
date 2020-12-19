@@ -9,28 +9,28 @@ public interface CarMoveBehavior {
     class UpBehavior implements CarMoveBehavior{
         @Override
         public void action() {
-            System.out.printf("Up");
+            System.out.printf("Up \n");
         }
     }
 
     class DownBehavior implements CarMoveBehavior{
         @Override
         public void action() {
-            System.out.printf("Down");
+            System.out.printf("Down \n");
         }
     }
 
     class LeftBehavior implements CarMoveBehavior{
         @Override
         public void action() {
-            System.out.printf("Left");
+            System.out.printf("Left \n");
         }
     }
 
     class RightBehavior implements CarMoveBehavior{
         @Override
         public void action() {
-            System.out.printf("Right");
+            System.out.printf("Right \n");
         }
     }
 }
